@@ -4,8 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS เบื้องต้น การประกาศ Selectors</title>
+    <style>
+      h1 {
+        color: salmon;
+        font-size: 50px;
+      }
+      .title {
+        color: green;
+        font-size: 100px;
+      }
+      #title {
+        color: goldenrod;
+      }
+      #title,
+      .title,
+      p {
+        font-style: italic;
+      }
+      p.message {
+        font-weight: bolder;
+      }
+      h1.message {
+        color: gray;
+      }
+    </style>
   </head>
   <body>
     <h1>John Tik</h1>
+    <h1 class="title">HTML5</h1>
+    <h1 id="title">CSS3</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere aliquid
+      praesentium voluptate numquam impedit quaerat, similique qui voluptatum
+      nobis maxime velit. Debitis accusantium magnam minus facere laudantium
+      amet rerum esse porro hic commodi sequi, id est minima blanditiis nemo
+      natus?
+    </p>
+    <p class="message">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eum
+      officia repudiandae delectus, vitae mollitia at nostrum incidunt officiis
+      eligendi!
+    </p>
+    <h1 class="message">John Tik</h1>
   </body>
 </html>
